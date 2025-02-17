@@ -6,11 +6,6 @@ export default function Navbar() {
   return (
     <>
       <header className="nav">
-        <NavLink to="/" className="logo">
-          <h2>
-            Portfo<span>lio</span>
-          </h2>
-        </NavLink>
         <nav>
           <ul className={isNavOpen ? "open" : ""}>
             <li>

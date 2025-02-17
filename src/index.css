@@ -5,10 +5,9 @@
   font-family: "Lato", sans-serif, "Liter", sans-serif !important;
 }
 .grid-container {
-  min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr minmax(300px, 1fr) 1fr;
-  grid-template-rows: max(5%) 1fr max(5%);
+  grid-template-rows: minmax(5%) 1fr minmax(5%);
   grid-auto-flow: column;
 }
 
@@ -45,6 +44,9 @@ article {
 
 nav {
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav ul {
@@ -98,12 +100,6 @@ header nav ul li a.active {
 section h1 {
   text-align: center;
   padding: 1em 0;
-}
-
-.project-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .card {
