@@ -1,0 +1,115 @@
+{
+  "FullName": "Mattias Åström",
+  "Title": "Fullstack Developer",
+  "About": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repudiandae culpa accusamus eum amet nostrum voluptatem suscipit! Culpa ea quaerat consequuntur ab unde enim vitae necessitatibus delectus, molestiae aperiam pariatur.",
+  "Experience": [
+    {
+      "Title": "Game Developer Intern",
+      "Company": " MAG Interactive",
+      "Location": "Stockholm, Sweden",
+      "Dates": " 08/2023 - 04/2024",
+      "Highlights": [
+        "Collaborated with senior developers to implement new gameplay features and mechanics",
+        "Resolved technical issues and bugs to improve overall game  performance and user experience.",
+        "Worked with cross-functional teams, including artists and designers, to ensure cohesive integration of assets and features."
+      ]
+    }
+  ],
+  "Education": [
+    {
+      "School": "Chas Academy",
+      "Location": "Stockholm, Sweden",
+      "Course": ".Net Fullstack Developer",
+      "Dates": "2024 - 2026",
+      "OptionalHighlights": []
+    },
+    {
+      "School": "The Game Assembly",
+      "Location": "Stockholm, Sweden",
+      "Course": "Game Programmer",
+      "Dates": "2021 - 2024",
+      "OptionalHighlights": []
+    },
+    {
+      "School": "Södertörns Högskola ",
+      "Location": "Stockholm, Sweden",
+      "Course": "The Game Program with a focus on game Design and Scripting",
+      "Dates": "2018 - 2021",
+      "OptionalHighlights": []
+    }
+  ],
+  "TechStack": [
+    {
+      "Languages": [
+        "JavaScript",
+        "TypeScript",
+        "C++",
+        "C#",
+        "Java",
+        "Python",
+        "Ruby",
+        "HTML",
+        "CSS"
+      ],
+      "FrontEndFrameworks": ["React", "Vue.js", "Angular", "Svelte"],
+      "BackEndFrameworks": [
+        "Node.js",
+        "Express",
+        "Django",
+        "Flask",
+        "Spring Boot",
+        "ASP.NET"
+      ],
+      "Databases": ["MySQL", "PostgreSQL", "MongoDB", "SQLite", "Redis"],
+      "VersionControl": ["Git", "GitHub", "GitLab", "Bitbucket"],
+      "DevOpsTools": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Jenkins",
+        "Travis CI",
+        "CircleCI"
+      ],
+      "CloudServices": ["AWS", "Google Cloud", "Azure", "Firebase", "Heroku"],
+      "OtherTools": [
+        "Webpack",
+        "Babel",
+        "Nginx",
+        "Apache",
+        "JIRA",
+        "Trello",
+        "Slack",
+        "Scrum"
+      ],
+      "TestingFrameworks": [
+        "Jest",
+        "Mocha",
+        "Chai",
+        "JUnit",
+        "Selenium",
+        "Cypress",
+        "Postman"
+      ]
+    }
+  ],
+  "Language": [
+    {
+      "Name": "Swedish",
+      "Proficiency": "Native"
+    },
+    {
+      "Name": "English",
+      "Proficiency": "Fluent"
+    }
+  ],
+  "ContactInfo": [
+    {
+      "Location": "Stockholm, Sweden",
+      "PhoneNumber": "+46 11 222 33 44",
+      "Email": "Mattias.astrom@hotmail.com",
+      "GitHub": "https://github.com/MattiasAstrom",
+      "Portfolio": "https://mattias.astrom.github.io/reactportfolio",
+      "LinkedIn": "https://www.linkedin.com/in/mattias-åström"
+    }
+  ]
+}
