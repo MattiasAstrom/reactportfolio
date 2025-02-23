@@ -24,7 +24,6 @@ export default function Projects() {
     return (
       <main>
         <section>
-          <h1>Mina projekt!</h1>
           <PacmanLoader color="#fffd12" />
         </section>
       </main>
@@ -34,7 +33,6 @@ export default function Projects() {
   return (
     <main>
       <section>
-        <h1>Mina projekt!</h1>
         <div className="project-section">
           {projects.map((project, index) => {
             return (
@@ -69,7 +67,8 @@ export default function Projects() {
                       <p>Language: {project.language || "Unknown"}</p>
                       <p>
                         {/* Add additional content to the modal here */}
-                        More details about {project.name} project.
+                        Description:{" "}
+                        {project.description || "(Description Not Found)"}
                       </p>
                       <a
                         href={project.svn_url}

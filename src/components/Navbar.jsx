@@ -9,9 +9,6 @@ export default function Navbar() {
         <nav>
           <ul className={isNavOpen ? "open" : ""}>
             <li>
-              <NavLink to="/Game">3D</NavLink>
-            </li>
-            <li>
               <NavLink to="/">Home</NavLink>
             </li>
             <li>

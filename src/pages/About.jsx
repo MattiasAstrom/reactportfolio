@@ -2,9 +2,7 @@ export default function About() {
   return (
     <main>
       <section class="flex-container">
-        <div class="flex-container-image">
-          <img src="https://picsum.photos/200/300?grayscale" />
-        </div>
+        <img src="https://picsum.photos/200/300?grayscale" />
         <article class="flex-container-details">
           <p>
             Panda, amidst the bamboo forests, where the leaves rustle and the
