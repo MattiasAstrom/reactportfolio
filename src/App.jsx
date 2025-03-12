@@ -16,7 +16,7 @@ import Game from "./pages/Game";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/reactportfolio">
         <Navbar />
         <Routes>
           <Route path="/reactportfolio" element={<Home />} />
