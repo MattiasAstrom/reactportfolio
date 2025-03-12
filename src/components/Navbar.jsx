@@ -9,7 +9,7 @@ export default function Navbar() {
         <nav>
           <ul className={isNavOpen ? "open" : ""}>
             <li>
-              <NavLink to="/reactportfolio">Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
               <NavLink to="/About">About</NavLink>
