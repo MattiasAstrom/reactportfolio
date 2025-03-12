@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -16,7 +16,7 @@ import Game from "./pages/Game";
 function App() {
   return (
     <>
-      <HashRouter basename="/reactportfolio">
+      <BrowserRouter basename="/reactportfolio">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -28,7 +28,7 @@ function App() {
         </Routes>
         <Footer />
         <EasterEggs />
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
